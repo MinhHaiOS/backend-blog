@@ -1,9 +1,10 @@
 {
-  "name": "zigvy-backend",
+  "name": "backend-demo",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "env-cmd -f ./.env nodemon src/app.js"
+    "start": "env-cmd -f ./.env nodemon src/app.js",
+	"hrstart": "node src/app.js"
   },
   "author": "Hai Tran",
   "license": "ISC",
